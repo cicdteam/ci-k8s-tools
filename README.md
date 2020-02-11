@@ -6,7 +6,7 @@ To use in CICD flows
 
 ```
 kubectl: Client Version: v1.16.3
-helm: v3.0.1+g7c22ef9
-kustomize: {kustomize/v3.4.0  2019-11-12T05:00:57Z  }
+helm: v3.0.3+gac925eb
+kustomize: {kustomize/v3.5.4  2020-01-11T03:12:59Z  }
 ```
 
