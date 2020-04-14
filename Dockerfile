@@ -1,7 +1,7 @@
 FROM alpine:3
 
-ARG KUBECTL_VERSION=1.16.3
-ARG HELM_VERSION=3.0.3
+ARG KUBECTL_VERSION=1.18.1
+ARG HELM_VERSION=3.1.2
 ARG KUSTOMIZE_VERSION=3.5.4
 
 
@@ -14,7 +14,7 @@ RUN set -e \
 		bash \
 		jq
 
-# install kubelet
+# install kubectl
 
 RUN set -e \
 	&& curl -sfSL https://storage.googleapis.com/kubernetes-release/release/v${KUBECTL_VERSION}/bin/linux/amd64/kubectl -o /usr/local/bin/kubectl \
